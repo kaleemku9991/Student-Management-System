@@ -1,11 +1,4 @@
-<?php
-// include 'dbconnect.php';
-// session_start();
-// if(!$_SESSION['email']){
-//     $_SESSION['login_first']="Please Login First";
-//     header('Location:index.php');
-// }
-?>
+
 
 
 <!-- html registeration/login form -->

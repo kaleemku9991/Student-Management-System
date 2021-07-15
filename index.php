@@ -100,7 +100,7 @@ if (isset($_POST['submit'])) {
             <form method="POST" action="">
               <div class="form-group">
                 <label class="text-white">Email</label>
-                <input type="email" name="fname" placeholder="Enter your email" class="form-control">
+                <input type="email" name="email" placeholder="Enter your email" class="form-control">
               </div>
 
               <div class="form-group">
@@ -152,7 +152,8 @@ if (isset($_POST['submit1'])) {
   $pwd_decode = password_verify($pwd, $pwd_fetch);
   if ($pwd_decode) {
     echo "<script>window.open('main.php?success=loggedin successfully','_self')</script>";
-  } else {
+  } 
+  else {
     echo "<script>window.open('index.php?error=username or password is incorrect','_self')</script>";
   }
 };
